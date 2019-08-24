@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+
+body { 
+	background: url(../images/photoshop/imagen_fondo.jpg);
+	background-size: 1366px;
+}
+
+* {
+	margin: 0;
+	font-family: 'Lexend Deca', sans-serif;
+}
+
+nav {
+	background-color: white;
+	padding: 10px 20px 20px 20px;
+	margin: 20px 400px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+nav h2 { 
+	color: black;
+	margin-bottom: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	font-weight: 400;
+}
+
+nav .inicio:hover {
+	color: black;
+	transition: 1s ease;
+	border-bottom: 3px solid #FF5722;
+}
+
+nav .illus:hover {
+	color: black;
+	transition: 1s ease;
+	border-bottom: 3px solid #512DA8;
+}
+
+nav .acerca:hover {
+	color: black;
+	transition: 1s ease;
+	border-bottom: 3px solid #512DA8;
+}
+
+nav .contacto:hover {
+	color: black;
+	transition: 1s ease;
+	border-bottom: 3px solid #FF9800;
+}
+
